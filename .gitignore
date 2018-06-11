@@ -1,0 +1,10 @@
+
+
+*
+!.gitignore
+!.gitattributes
+!readme.md
+!.gitkeep
+!*.c
+!*.cpp
+!*.h

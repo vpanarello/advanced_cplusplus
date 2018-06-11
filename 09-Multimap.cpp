@@ -39,7 +39,7 @@ void function_maps_04(void) {
 	// pair<ss_map::iterator, ss_map::iterator> its = lookup.equal_range("aae");
 	auto its = lookup.equal_range("aae"); // Alternative from C++11 where specify auto type
 
-
+	
 	for(ss_map::iterator it=its.first; it !=its.second; it++) {
 		cout << it->first << " : " << it->second << endl;
 	}

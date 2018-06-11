@@ -29,7 +29,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//cb.set_callback(&function_04); // Write a binary file
 	//cb.set_callback(&function_05); // Read a binary file
 
-	cb.set_callback(&function_vectors_01); // Basic Vectors and interators
+	//cb.set_callback(&function_vectors_01); // Basic Vectors and interators
 	// cb.set_callback(&function_vectors_02);  // Vectors and memory uses
 	// cb.set_callback(&function_vectors_03);  // Vectors of 2 dimensions
 	// cb.set_callback(&function_lists_01);  // Vectors of 2 dimensions
@@ -45,8 +45,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	//cb.set_callback(&function_stack_01);
 	//cb.set_callback(&function_queue_01);
 
+	// Operator overload activities
+	//cb.set_callback(&function_op_overload_01);
 
+	//cb.set_callback(&function_op_overload_02);
 
+	cb.set_callback(&function_complex_01);
+	
+	
 
 	cb.set_callback(&_exit);
 	cb.execute_all();

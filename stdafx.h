@@ -4,6 +4,8 @@
 //
 
 #pragma once
+// Pragma to define correct objects size 
+#pragma pack(push, 1)
 
 #include "targetver.h"
 
@@ -30,6 +32,8 @@
 
 // Other source files
 #include "definitions.h"
+
+#include "util.h"
 
 
 

@@ -38,6 +38,11 @@ void function_sets_01(void);
 void function_stack_01(void);
 void function_queue_01(void);
 
+void function_op_overload_01(void);
+void function_op_overload_02(void);
+
+void function_complex_01(void);
+
 
 
 
