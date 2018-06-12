@@ -38,11 +38,3 @@ void function_complex_01(void) {
 	}
 
 }
-
-
-
-
-
-
-
-

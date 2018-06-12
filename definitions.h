@@ -42,6 +42,7 @@ void function_op_overload_01(void);
 void function_op_overload_02(void);
 
 void function_complex_01(void);
+void function_template_01(void);
 
 
 

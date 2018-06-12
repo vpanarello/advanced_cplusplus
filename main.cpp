@@ -50,8 +50,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//cb.set_callback(&function_op_overload_02);
 
-	cb.set_callback(&function_complex_01);
-	
+	//cb.set_callback(&function_complex_01);
+
+	cb.set_callback(&function_template_01);
+
 	
 
 	cb.set_callback(&_exit);
